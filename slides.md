@@ -1,10 +1,6 @@
 ---
 # You can also start simply with 'default'
 theme: default
-background: https://cover.sli.dev
----
----
-transition: slide-up
 layout: image
 image: /assets/backgrounds/fun_with_flags.jpg
 ---
@@ -18,14 +14,26 @@ image: /assets/backgrounds/fun_with_flags.jpg
 ---
 layout: section
 ---
-Where are we coming from?
+<h1 class="font-size-12 font-bold">Where are we coming from? 🥾</h1>
+---
+layout: header-text
+transition: slider-up
+---
+::header::
+
+::text::
+<div class="font-oblique">
+<q class="text-2xl"> We are <span v-mark.highlight.yellow="1">lacking of <span v-mark.line.circle.red="3">control</span></span> of our application if we have (minor) outages.
+Also we are not able to <span v-mark.highlight.yellow="2"> <span v-mark.circle.red="3">control</span> specific features </span> if they will show up for a certain time.</q>
+</div>
+
 ---
 layout: section
-class: text-center
-title: Feature Flags
+transition: slide-up
+class: text-center font-bold
 ---
-# 🚩 FEATURE FLAGS 🚩
-<q > A short tour... </q>
+<h1 class="font-size-12 font-bold"> 🚩 FEATURE FLAGS 🚩</h1>
+<span class="font-light"> A short tour... </span>
 ---
 layout: quote
 level: 2
@@ -46,7 +54,7 @@ layout: header-text
 ---
 
 ::header::
-# This spans both
+<h1 class="font-size-12 font-bold"> Use cases </h1>
 
 ::text::
 <ul>
@@ -82,7 +90,7 @@ Maintenance
 Sunset
 -->
 ---
-layout: quote
+layout: section
 ---
 # What is our Solution?
 ---
@@ -424,5 +432,8 @@ ul {
 }
 </style>
 ---
-<!--END-->
+layout: section
+class: text-center font-bold
+---
+# Questions?
 ---
