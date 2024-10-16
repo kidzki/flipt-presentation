@@ -17,12 +17,12 @@ image: /assets/backgrounds/fun_with_flags.jpg
 </div>
 
 ---
-layout: quote
+layout: section
 class: text-center
 title: Feature Flags
 ---
-# FEATURE FLAGS
-<q> A short tour... </q>
+# 🚩 FEATURE FLAGS 🚩
+<q > A short tour... </q>
 ---
 layout: quote
 level: 2
@@ -39,19 +39,45 @@ The quint essence of this quote is: Feature Flags * turn specific features * on 
 -->
 ---
 level: 2
-layout: two-cols
+layout: header-text
 ---
+
+::header::
 # This spans both
 
-* Permissions
-* Early Access
-* Opt In
-* Incremental Rollout
-* Block Users
-* Kill Switch
-* Power Users
-* Maintenance
-* Sunset
+::text::
+<ul>
+  <li v-click class="font-size-6"> 🚫  Permissions </li>
+  <li v-click class="font-size-6"> ⏳  Early Access </li>
+  <li v-click class="font-size-6"> ✅  Opt In </li>
+  <li v-click class="font-size-6"> 🍰  Incremental Rollout </li>
+  <li v-click class="font-size-6"> 🛑  Block Users </li>
+  <li v-click class="font-size-6"> 😵  Kill Switch </li>
+  <li v-click class="font-size-6"> 💪🏻 Power Users </li>
+  <li v-click class="font-size-6"> 🛠️ Maintenance </li>
+  <li v-click class="font-size-6"> 🌅  Sunset </li>
+</ul>
+
+<style scoped>
+ul {
+  list-style-type: none;
+  li {
+    margin: 0;
+  }
+}
+</style>
+
+<!--
+Permission:
+Early Access
+Opt-In: Zu etwas aktiv entscheiden
+Incremental Rollout
+Block Users
+Kill Switch
+Power Users
+Maintenance
+Sunset
+-->
 ---
 layout: quote
 ---
@@ -77,11 +103,46 @@ class: text-center
 
 ---
 transition: slide-up
-layout: quote
+layout: section
 class: text-center
 ---
 <img class="mx-auto" src="./assets/backgrounds/openfeature.svg" />
 <img v-click class="mx-auto w-40" src="./assets/backgrounds/cloudnative.svg" />
+
+<div class="abs-br m-6 flex gap-2">
+  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="opacity-50 !border-none !hover:text-red-500 my-auto">
+    <img class="mx-auto w-20" src="./assets/backgrounds/openfeature.svg" />
+  </a>
+</div>
+
+<style>
+a {
+  align-content: center;
+}
+</style>
+---
+layout: header-text
+transition: slider-up
+---
+::header::
+# What are the benefits?
+
+::text::
+<ul>
+  <li>Standardizing</li>
+</ul>
+---
+layout: header-text
+transition: slider-up
+---
+::header::
+# What are the benefits?
+
+::text::
+<ul>
+  <li>SEGMENTS? Feature-Flags?</li>
+</ul>
 ---
 layout: image
 image: /assets/backgrounds/flipt-dashboard.png
@@ -97,17 +158,10 @@ backgroundPosition: top
 }
 </style>
 ---
-transition: slide-up
-layout: quote
-class: text-center
----
-<img class="mx-auto" src="./assets/backgrounds/openfeature.svg" />
-<img v-click class="mx-auto w-40" src="./assets/backgrounds/cloudnative.svg" />
----
-layout: quote
+layout: section
 class: text-center font-bold
 ---
-# Lets C</>DE
+# Lets 🧑‍💻
 ---
 layout: quote
 ---
@@ -236,9 +290,6 @@ backgroundSize: contain
 ---
 <!--END-->
 ---
-
-
-
 
 
 # random image from a curated Unsplash collection by Anthony
@@ -819,7 +870,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="663,206,261,_,-15"undefinedundefinedundefinedundefinedundefined>
+<v-drag pos="663,206,261,_,-15"undefinedundefinedundefinedundefined>
   <div text-center text-3xl border border-main rounded>
     Double-click me!
   </div>
