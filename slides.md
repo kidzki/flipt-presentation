@@ -271,7 +271,7 @@ layout: header-text
       <span class="font-bold color-green-700 font-size-8">DO:</span>
       <ul>
         <li>
-          <span class="font-size-6"> allow_user delete | allow_user_edit</span>
+          <span class="font-size-6"> allow-user-delete | allow-user-edit</span>
         </li>
       </ul>
     </li>
@@ -352,7 +352,7 @@ layout: header-text
 <div>
   <ul>
     <li class="font-size-6">Add clear descriptions to your feature flags</li>
-    <li class="font-size-6">What are they for? Whats the usecase?</li>
+    <li class="font-size-6">What are they for? Whats the use case?</li>
   </ul>
 </div>
 ---
